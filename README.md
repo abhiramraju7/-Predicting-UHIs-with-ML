@@ -1,6 +1,15 @@
 # -Predicting-UHIs-with-ML
 # Project Overview
+Remote Sensing Correlations Between Income and Land Cover to Analyze Urban Heat Islands in Austin, Texas is a research project intended to answer the following questions:  
+1. What are the primary factors contributing to increased risk of urban heat islands (UHIs) in socioeconomically disadvantaged areas of Austin, Texas?
+2. To what extent do these primary variables correlate with each other?  
+3. Which areas in Austin are most likely to be affected by urban heat islands based on these correlations?
+  
+Our team investigated four variables that affect the formation of urban heat islands: percentage of vegetation (greenness), percentage of impervious surfaces (concrete and asphalt), median household income, and land surface temperature. These variables were analyzed across 444 coordinates scattered around the city of Austin, Texas. After gathering data on these four factors, our team analyzed the extent at which they correlated with each other using unsupervised machine learning algorithms and aims to use these correlation results to inspire future enviornmental justice initiatives.  
 
+View our full research paper here: (insert link later)  
+View our final presentation here: (insert link later)  
+  
 # Description of Files
 
 # Steps to Reproduce Results
