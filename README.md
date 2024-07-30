@@ -23,12 +23,19 @@ There are eight dataset files in the repository.
 8. [datasets/Austin-LST-Points-ECO-L2T-LSTE-002-metadata.xml](datasets/Austin-LST-Points-ECO-L2T-LSTE-002-metadata.xml) - a document that contains all necessary metadata for the ECOSTRESS land surface temperature request from NASA AppEEARS.  
    
 There are also two Jupyter Colab notebooks in the repository that contain all of our created code.  
-1. (add in relative link to main colab later) - a notebook containing all of the code used to run correlation analysis using three different unsupervised learning algorithms: K-means, Hierarchal, and DBSCAN. This notebook also contains the graphs we generated from this correlation analysis and our steps for processing and pre-processing of the datasets. 
-2. (add in relative link to results colab later) - a notebook containing our final heatmap created for the correlations between the four variables as well as the code used to generate it.  
+1. ClustersAndPreprocessing.ipynb - a notebook containing all of the code used to run correlation analysis using three different unsupervised learning algorithms: K-means, Hierarchal, and DBSCAN. This notebook also contains the graphs we generated from this correlation analysis and our steps for processing and pre-processing of the datasets. 
+2. CorrelationTests.ipynb - a notebook containing our final heatmap created for the correlations between the four variables as well as the code used to generate it.  
   
 # Steps to Reproduce Results
 
-  add in code block here!  
+  1. Download FINALUHIDATA.csv to Google Drive
+  2. Make a copy of ClustersAndPreprocessing.ipynb
+  3. If needed - change path in ClustersAndPreprocessing.ipynb cell 2 to match the path to FINALUHIDATA.csv in your Google Drive
+  4. Run ClustersAndPreprocessing.ipynb
+  5. Make a copy of CorrelationTests.ipynb
+  6. If needed - change path in CorrelationTests.ipynb cell 1 to match the path to FINALUHIDATA.csv in your Google Drive
+  7. Run CorrelationTests.ipynb
+       
 # Citations and Acknowledgements  
 Global Learning and Observations to Benefit the Environment (GLOBE) Program, 2024-07-29, https://www.globe.gov/globe-data.  
 Collect Earth Online - Satellite Image Viewing & Interpretation System​. (2023, August 30). https://www.collect.earth/.  
